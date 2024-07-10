@@ -90,27 +90,30 @@ body
     overflow-x: hidden;
 }
 
-.containcenter
+.containleft
 {
-  background-color: #252525;
-  background-size: cover;
-  background-position: top;
+  background-color: #000;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
 }
 
-.center
+
+.ring
 {
+    background: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1720481125");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
     float: left;
     color: white;
     padding: 20px 0px;
-    margin: 50px;
+    margin: 50px 0px;
     font-size: 20px;
 }
 
-.buttons #res
+.buyring #buy
 {
   font-size: 15px;
   background: rgb(37, 37, 37);
@@ -120,59 +123,74 @@ body
   text-decoration: none;
   transition: 0.2s;
 }
-.buttons #res:hover
-{
-  color: #000;
-  background: #1dacff;
-}
-
-.buttons #proj
-{
-  font-size: 15px;
-  background: rgb(37, 37, 37);
-  color: rgb(255, 255, 255);
-  border-radius: 30px;
-  padding: 15px 25px;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.buttons #proj:hover
-{
-  color: #000;
-  background: #ff2600;
-}
-
-.buttons #dev
-{
-  font-size: 15px;
-  background: rgb(37, 37, 37);
-  color: rgb(255, 255, 255);
-  border-radius: 30px;
-  padding: 15px 25px;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.buttons #dev:hover
-{
-  color: #000;
-  background: #f0ce0c;
-}
-
-.buttons #wish
-{
-  font-size: 15px;
-  background: rgb(37, 37, 37);
-  color: rgb(255, 255, 255);
-  border-radius: 30px;
-  padding: 15px 25px;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.buttons #wish:hover
+.buyring #buy:hover
 {
   color: #000;
   background: #b2f128;
 }
+
+.baron
+{
+    background: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371970/ss_dca8436c6729dfd31f2cef757a682c7f1e7e075c.1920x1080.jpg?t=1720550205");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    color: white;
+    padding: 20px 0px;
+    margin: 25px 0px;
+    font-size: 20px;
+}
+
+.buybaron #buy
+{
+  font-size: 15px;
+  background: rgb(37, 37, 37);
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.buybaron #buy:hover
+{
+  color: #000;
+  background: #b2f128;
+}
+
+
+.ultra
+{
+    background: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_4b2bd2e468488b646b4e5b2f1160db8896867238.1920x1080.jpg?t=1704406135");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    margin: 50px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.buyultra #buy
+{
+  font-size: 15px;
+  background: rgb(37, 37, 37);
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.buyultra #buy:hover
+{
+  color: #000;
+  background: #b2f128;
+}
+
+
 
 .footerbottom
 {
